@@ -28,8 +28,8 @@
     "department text"
     "name text"
     "email text"
-    "verification text"
-    "verification button";
+    "captcha text"
+    "captcha button";
     grid-gap: 10px;
 }
 .email-input-area [class^="email-input"]{
@@ -48,9 +48,8 @@
 .email-input-email{
     grid-area: email;
 }
-.email-input-verification{
-    grid-area: verification;
-    background-color: red
+.email-input-captcha{
+    grid-area: captcha;
 }
 .email-input-text{
     grid-area: text;

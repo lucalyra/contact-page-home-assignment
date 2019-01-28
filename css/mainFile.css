@@ -21,7 +21,7 @@ body{
     grid-template-areas: 
     "menu menu"
     "adv contact"
-    "popular popupar"
+    "popular popular"
     "footer footer";
     grid-template-columns: 20% 70%;
     grid-gap: 25px;

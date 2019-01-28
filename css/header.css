@@ -1,0 +1,17 @@
+.header-nav {
+    display: flex;
+    align-items: center;
+    min-width: 465px;
+}
+.header-nav-link{
+    margin-right: 15px;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    min-width: 390px;
+}
+.header-options *{
+    margin-right: 15px;
+}

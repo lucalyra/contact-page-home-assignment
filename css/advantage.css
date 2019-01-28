@@ -1,0 +1,130 @@
+.advantage-title{
+    text-align: center;
+
+}
+.advantage-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px 0;
+}
+.advantage-options-container{
+    margin: -14px 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 125px;
+    border-right: #d7d7d7 solid 1px;
+}
+.advantage-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: #d7d7d7 solid 1px;
+    border-bottom: #d7d7d7 solid 1px;
+
+}
+.advantage-option-text{
+    margin: 10px 4px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.advantage-learn-more{
+    margin-top: 14px;
+    display: flex;
+    background-color: white;
+    border: #d7d7d7 solid 1px;
+    border-top: none;
+
+}
+.advantage-learn-btn{
+    margin: 10px auto;
+    white-space: nowrap;
+
+}
+.advantage-asta {
+    padding: 15px;
+    background-color: white;
+    border: #d7d7d7 solid 1px;
+    display: flex;
+    align-items: center;
+}
+.asta-logo{
+    margin-right: 15px;
+}
+.asta-name{
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: #d7d7d7 solid 1px;
+}
+.review-logo{
+    padding: 10px;
+}
+.review-container{
+    display: grid;
+    grid-template-areas: 
+    "arrowleft text arrowright"
+    ". reviewer .";
+    grid-template-columns: 12% 70% 12%;
+    grid-gap: 0 10px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+.fa-angle-left{
+    grid-area: arrowleft
+}
+.fa-angle-right{
+    grid-area: arrowright
+}
+.review-text{
+    grid-area: text;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold
+}
+.reviewer-name{
+    grid-area: reviewer;
+    font-size: 12px;
+    color: #acacac;
+    justify-self: left;
+}
+.review-info{
+    width: 100%;
+    background-color: #efefef;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.review-btn{
+    position: absolute;
+    left: 7%;
+    color: white;
+    border: 0 solid;
+    height: 30px;
+    width: 70px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+.review-amount{
+    margin-right: 5px;
+    color: #b5b4b4;
+    font-size: 13px;
+    font-weight: bold;
+}
+.trustpilot-btn{
+    background: linear-gradient(to bottom, #79b22e 0%,#508c39 99%);
+
+}
+.feefo-btn{
+    background: linear-gradient(to bottom, #f6e20e 0%,#f2cf0d 99%);
+}

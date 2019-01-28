@@ -1,0 +1,81 @@
+.contact-title{
+    text-align: center;
+}
+.contact-sec-title{
+    background-color: #efefef;
+    padding: 5px 10px;
+    margin: 15px -10px 10px -10px;
+}
+.contact-sec-title-icon{
+    color: #65a134;
+}
+.contact-sec-title-text{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    font-size: 14px
+}
+.contact-wrap{
+    padding: 0 10px;
+    font-size: 14px;
+}
+.before-contact{
+    font-size: 14px;
+}
+.email-input-area{
+    display: grid;
+    grid-template-areas: 
+    "department text"
+    "name text"
+    "email text"
+    "verification text"
+    "verification button";
+    grid-gap: 10px;
+}
+.email-input-area [class^="email-input"]{
+    border: #d7d7d7 solid 1px;
+    border-radius: 4px;
+}
+.email-input-area input[class^="email-input"]{
+    height: 30px;
+}
+.email-input-department{
+    grid-area: department;
+}
+.email-input-name{
+    grid-area: name;
+}
+.email-input-email{
+    grid-area: email;
+}
+.email-input-verification{
+    grid-area: verification;
+    background-color: red
+}
+.email-input-text{
+    grid-area: text;
+}
+.email-input-button{
+    grid-area: button;
+}
+.contact-text{
+    margin: 10px 0;
+    display: inline-block;
+}
+.call-phones-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 35px;
+    grid-gap: 5px;
+}
+.call-phone{
+    display: flex;
+    align-items: center;
+}
+.call-country{
+    padding: 0 5px;
+    font-weight: bold
+}
+.call-number{
+    white-space: nowrap;
+}

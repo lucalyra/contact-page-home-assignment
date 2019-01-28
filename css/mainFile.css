@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/background.png);
+    background-repeat: repeat-y;
+    background-size: cover; 
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "page";
+    grid-gap: 5px;
+}
+.page-wrap{
+    grid-area: page;
+    display: grid;
+    grid-template-areas: 
+    "menu menu"
+    "adv contact"
+    "popular popupar"
+    "footer footer";
+    grid-template-columns: 20% 70%;
+    grid-gap: 25px;
+    justify-content: center
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 4%;
+    grid-area: header;
+    background: linear-gradient(to right, rgba(38,38,38,1) 0%, rgba(52,52,52,1) 51%, rgba(38,38,38,1) 100%);
+    color: white;
+    font-size: 14px;
+}
+.menu{
+    grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: green 1px solid;
+    font-weight: bold;
+}
+.contact{
+    grid-area: contact;
+}
+.advantage{
+    grid-area: adv;
+    color:#828282;
+}
+.popular-searches{
+    grid-area: popular;
+}
+.footer{
+    grid-area: footer;
+}
+.title{
+    color: #7a7a7a;
+    font-size: 17px;
+    border: #d7d7d7 solid 1px;
+    background-color: #efefef;
+    padding: 5px;
+}
+.not-bold{
+    font-weight: normal
+}
+.green-btn{
+    background: linear-gradient(to bottom, #79b22e 0%,#508c39 99%);
+    color: white;
+    border: 0 solid;
+    padding: 10px 75px;
+    border-radius: 4px;
+    font-size: 20px;
+    /* width: 100%; */
+    margin: 0 5px
+}

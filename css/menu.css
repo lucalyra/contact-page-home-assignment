@@ -1,0 +1,11 @@
+.menu-options{
+    white-space:nowrap;
+}
+.menu-link{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    white-space:nowrap;
+}
+.menu-logo{
+    min-width: 250px;
+}

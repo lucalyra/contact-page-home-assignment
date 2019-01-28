@@ -36,8 +36,9 @@
     border: #d7d7d7 solid 1px;
     border-radius: 4px;
 }
-.email-input-area input[class^="email-input"]{
+.email-input-area input[type="text"]{
     height: 30px;
+    padding: 5px;
 }
 .email-input-department{
     grid-area: department;
@@ -53,9 +54,23 @@
 }
 .email-input-text{
     grid-area: text;
+    resize: none
 }
 .email-input-button{
     grid-area: button;
+}
+.email-department {
+    display: flex;
+    flex-direction: column;
+    color: #757575
+
+}
+.email-input-department {
+    height: 30px;
+    color: #757575
+}
+.email-input-department option{
+    color: black
 }
 .contact-text{
     margin: 10px 0;

@@ -5,6 +5,7 @@
     text-transform: uppercase;
     padding: 5px 10px;
     white-space:nowrap;
+    cursor: pointer;
 }
 .menu-logo{
     min-width: 250px;

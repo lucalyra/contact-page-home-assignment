@@ -1,11 +1,13 @@
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/mainFile.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/advantage.css">
+    <link rel="stylesheet" type="text/css" href="css/popular.css">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <style></style> 
@@ -29,7 +31,12 @@
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-google-plus-square"></i>
                 <button class="login-btn">Login</button>
-                <span >English</span>
+                <select class="language">
+                    <option value="english">English</option>
+                    <option value="swedish">Swedish</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="arabic">Arabic</option>
+                </select>
             </div>
         </div>
         <div class="page-wrap">
@@ -53,17 +60,22 @@
                             <i class="fas fa-envelope contact-sec-title-icon"></i>  
                             <h3 class="email-title-text contact-sec-title-text">Email Us</h3>
                         </div>
-                        <div class="email-input-area">
-                            <div>
-                                <span>Department:</span>
-                                <input type="text" placeholder="NEED TO CHANGE" class="email-input-department">
+                        <form class="email-input-area">
+                            <div class="email-department">
+                                <span> Department: </span> 
+                                <select class="email-input-department">
+                                    <option value="customer">Customer sevices</option>
+                                    <option value="customer2">Customer sevices 2</option>
+                                    <option value="customer3">Customer sevices 3</option>
+                                    <option value="customer4">Customer sevices 4</option>
+                                  </select>
                             </div> 
-                            <input type="text" placeholder="Full Name" class="email-input-name">
-                            <input type="text" placeholder="Email" class="email-input-email">
-                            <div class="g-recaptcha email-input-captcha" data-sitekey="6Lf-a40UAAAAAN_2vtLdA_W3LrcbYVjOmlF5jTD9"></div>
-                            <textarea placeholder="Text.." class="email-input-text" cols="30" rows="10"></textarea>
-                            <button class="email-input-button green-btn">Submit</button>
-                        </div>
+                            <input type="text" name="name" placeholder="Full Name" class="email-input-name">
+                            <input type="text" name="email" placeholder="Email" class="email-input-email">
+                            <div class="g-recaptcha email-input-captcha" name="recaptcha" data-sitekey="6Lf-a40UAAAAAN_2vtLdA_W3LrcbYVjOmlF5jTD9"></div>
+                            <textarea placeholder="Text.." name="text" class="email-input-text" cols="30" rows="10"></textarea>
+                            <input type="submit" value="Submit" class="email-input-button green-btn">
+                        </form>
                     </div>
                     <div class="call-us">
                         <div class="call-title title contact-sec-title">
@@ -205,7 +217,36 @@
                 </div>
             </div>
             <div class="popular-searches">
-                    <h2 class="popular-searches title">Popular Searches</h2>
+                <h2 class="popular-searches title">Popular Searches</h2>
+                <div class="popular-searches-options-container">
+                    <span class="popular-searches-option">AFC AJAX</span>
+                    <span class="popular-searches-option">ATLETICO MADRID</span>
+                    <span class="popular-searches-option">MANCHESTER UNITED</span>
+                    <span class="popular-searches-option">JUVENTUS</span>
+                    <span class="popular-searches-option">AS ROMA</span>
+                    <span class="popular-searches-option">PREMIER LEAGUE</span>
+                    <span class="popular-searches-option">FC PORTO</span>
+                    <span class="popular-searches-option">ENGLAND</span>
+                    <span class="popular-searches-option">LIVERPOOL</span>
+                    <span class="popular-searches-option">TOTTENHAM HOTSPUR</span>
+                    <span class="popular-searches-option">WEST HAM UNITED</span>
+                    <span class="popular-searches-option">SSC NAPOLI</span>
+                    <span class="popular-searches-option">ATLETICO</span>
+                    <span class="popular-searches-option">CHEALSEA</span>
+                    <span class="popular-searches-option">AFC</span>
+                    <span class="popular-searches-option">ARSENAL</span>
+                    <span class="popular-searches-option">REAL MADRID</span>
+                    <span class="popular-searches-option">SSC NAPOLI</span>
+                    <span class="popular-searches-option">VALENCIA CF</span>
+                    <span class="popular-searches-option">BAYER LEVERKUSEN</span>
+                    <span class="popular-searches-option">CHAMPIONS LEAGUE</span>
+                    <span class="popular-searches-option">EVERTON</span>
+                    <span class="popular-searches-option">AC MILAN</span>
+                    <span class="popular-searches-option">MANCHESTER CITY</span>
+                    <span class="popular-searches-option">SERVILLA FC</span>
+                    <span class="popular-searches-option">INTER MILAN</span>
+                    <span class="popular-searches-option">BAYERN MUNICH</span>
+                </div>
             </div>
             <div class="footer"> Footer </div>
     </div>  

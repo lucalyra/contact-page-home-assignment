@@ -22,6 +22,7 @@
     height: 100%;
     width: 70%;
     background: #1f1f1f;
+    box-shadow: 9px 0px 42px 1px rgba(120,120,120,1);
 }
 .sidebar-nav{
     display: flex;
@@ -30,7 +31,7 @@
     align-items: baseline;
     height: 40%;
     padding-left: 25px;
-    
+    margin-top: 30px;
 }
 .sidebar-nav-link{
     cursor: pointer;
@@ -39,27 +40,40 @@
     font-weight: bold;
     color: white
 }
-.sidebar-header {
+/* .sidebar-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 25px;
+} */
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: rgb(230, 230, 230);
+    padding: 1px 0;
+    margin-top: 15px;
 }
 .sidebar-logo{
     width: 80%;
-    /* margin: 25px 0;
-    padding-left: 25px; */
+    /* padding-left: 25px;
+    margin-top: 20px; */
 }
+
 .sidebar-options{
-    padding: 10px 0 10px 25px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     height: 60px;
-
+    justify-self: flex-end;
+    margin-top: auto;
 }
 .sidebar-more-button{
     font-size:35px;
     cursor: pointer;
+    margin-left: auto;
+    margin: 20px 20px 10px auto;
 }

@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1150px) {
-    
+
     /* mainFile */
     .page-wrap{
         grid-template-areas: 
@@ -64,7 +64,8 @@
         "accept"
         "partners"
         "newsletter";
-        grid-template-columns: 270px;
+        grid-template-columns: 100%;
+        justify-content: center;
     }
     .footer-deliver, .footer-accept, .footer-partners{
         flex-direction: column

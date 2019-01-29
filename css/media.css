@@ -10,8 +10,9 @@
         grid-template-columns: 50%;
     }
     .menu{
-
+        display: none;
     }
+
     .contact-wrap{
         padding: 0
     }
@@ -45,5 +46,13 @@
     .footer-deliver, .footer-accept, .footer-partners{
         flex-direction: column
     }
-
+    .header-options{
+        min-width: fit-content;
+    }
+    .header-nav,.header-login,.header-language{
+        display: none
+    }
+    .header-mobile-more{
+        display: inline;
+    }
 }

@@ -55,6 +55,9 @@
     .header-mobile-more{
         display: inline;
     }
+    .search  {
+        margin-right: 0;
+    }
 
     /* popular */
     .popular-searches-options-container {

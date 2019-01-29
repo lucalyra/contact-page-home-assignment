@@ -72,6 +72,9 @@
 .email-input-department option{
     color: black
 }
+.call-us{
+    position: relative;
+}
 .contact-text{
     margin: 10px 0;
     display: inline-block;
@@ -92,4 +95,21 @@
 }
 .call-number{
     white-space: nowrap;
+}
+.live-chat-balloon{
+    position: absolute;
+    top: 158px;
+    right: -20px;
+}
+.live-chat-balloon::before{
+    content: "LIVE CHAT";
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word;
+    top: 15px;
+    text-align: center;
+    left: 11px;
+    width: 60px;
+
 }

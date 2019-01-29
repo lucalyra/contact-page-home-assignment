@@ -52,14 +52,14 @@
     margin-top: 15px;
 }
 .sidebar-logo{
-    width: 80%;
+    width: 300px;
 }
 
 .sidebar-options{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     height: 60px;
     justify-self: flex-end;
     margin-top: auto;
@@ -69,4 +69,7 @@
     cursor: pointer;
     margin-left: auto;
     margin: 20px 20px 10px auto;
+}
+.sidebar-select{
+    margin-left: 25px
 }

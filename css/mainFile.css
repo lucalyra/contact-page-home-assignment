@@ -23,8 +23,8 @@ body{
     "adv contact"
     "popular popular"
     "footer footer";
-    grid-template-columns: 300px 800px;
-    grid-gap: 25px;
+    grid-template-columns: 255px 750px;
+    grid-gap: 10px;
     justify-content: center
 }
 .header{
@@ -69,7 +69,7 @@ body{
     grid-template-columns: 300px 400px 250px;
     padding: 15px;
     color: #acacac;
-    grid-gap: 25px 72px;
+    grid-gap: 25px 15px;
     align-items: center;
 }
 .title{

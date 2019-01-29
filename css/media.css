@@ -7,12 +7,14 @@
         "adv"
         "popular"
         "footer";
-        grid-template-columns: 50%;
+        grid-template-columns: 80%;
     }
-    .menu{
+    .menu-options{
         display: none;
     }
-
+    .menu{
+        justify-content: center;
+    }
     .contact-wrap{
         padding: 0
     }
@@ -46,6 +48,12 @@
     .footer-deliver, .footer-accept, .footer-partners{
         flex-direction: column
     }
+    .header {
+        justify-content: space-between;
+        padding: 0 10%;
+
+    }
+        
     .header-options{
         min-width: fit-content;
     }

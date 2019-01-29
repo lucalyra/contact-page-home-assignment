@@ -32,18 +32,17 @@
     .live-chat-balloon{
         display: none;
     }
+    .email-input-area {
+        display: grid;
+        grid-template-areas: "department text" "name text" "email text" "captcha text" "captcha button";
+        grid-template-columns: 305px 270px;
+        grid-gap: 10px 20px;
+        justify-content: center;
+    }
 
     /* header */
     .header-options .fab, .header-nav,.header-login,.header-language{
      display: none;
-    }
-    .email-input-area {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 305px;
-        height: 415px;
-        margin: auto;
     }
     .header {
         justify-content: space-between;
@@ -92,9 +91,16 @@
 
 
 /* Mobile */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
     .page-wrap{
         grid-template-columns: 80%;
     }
-
+    .email-input-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 305px;
+        height: 415px;
+        margin: auto;
+    }
 }

@@ -11,7 +11,7 @@
 .sidebar-screen-background{
     position: absolute;
     right: 0;
-    width: 50%;
+    width: 30%;
     height: 100%;
     background: #00000082;
 }
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content:flex-start;
     height: 100%;
-    width: 50%;
+    width: 70%;
     background: #1f1f1f;
 }
 .sidebar-nav{
@@ -39,11 +39,27 @@
     font-weight: bold;
     color: white
 }
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
 .sidebar-logo{
     width: 80%;
-    margin: 25px 0;
-    padding-left: 25px;
+    /* margin: 25px 0;
+    padding-left: 25px; */
 }
 .sidebar-options{
-    padding: 10px 0 10px 25px
+    padding: 10px 0 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 60px;
+
+}
+.sidebar-more-button{
+    font-size:35px;
+    cursor: pointer;
 }

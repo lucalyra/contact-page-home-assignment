@@ -1,5 +1,6 @@
 @media only screen and (max-width: 1150px) {
-
+    
+    /* mainFile */
     .page-wrap{
         grid-template-areas: 
         "menu"
@@ -9,16 +10,22 @@
         "footer";
         grid-template-columns: 80%;
     }
+
+    /* menu */
     .menu-options{
         display: none;
     }
     .menu{
         justify-content: center;
     }
+
+    /* contact */
     .contact-wrap{
         padding: 0
     }
-    .header-options .fab{
+
+    /* header */
+    .header-options .fab, .header-nav,.header-login,.header-language{
      display: none;
     }
     .email-input-area {
@@ -31,10 +38,24 @@
         "text"
         "button";
     }
+    .header {
+        justify-content: space-between;
+        padding: 0 10%;
+    }  
+    .header-options{
+        min-width: fit-content;
+    }
+    .header-mobile-more{
+        display: inline;
+    }
+
+    /* popular */
     .popular-searches-options-container {
         max-height: 300px;
         overflow: hidden;
     }
+
+    /* footer */
     .footer {
         grid-template: 
         "logo"
@@ -48,19 +69,5 @@
     .footer-deliver, .footer-accept, .footer-partners{
         flex-direction: column
     }
-    .header {
-        justify-content: space-between;
-        padding: 0 10%;
 
-    }
-        
-    .header-options{
-        min-width: fit-content;
-    }
-    .header-nav,.header-login,.header-language{
-        display: none
-    }
-    .header-mobile-more{
-        display: inline;
-    }
 }

@@ -59,6 +59,18 @@ body{
 }
 .footer{
     grid-area: footer;
+    background-color: #464646;
+    height: 100%;
+    display: grid;
+    grid-template: 
+    "logo deliver newsletter"
+    "follow accept newsletter"
+    "follow partners newsletter";
+    grid-template-columns: 29% 38% 29%;
+    padding: 15px;
+    color: #acacac;
+    grid-gap: 20px;
+    align-items: center;
 }
 .title{
     color: #7a7a7a;

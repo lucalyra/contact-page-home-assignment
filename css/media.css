@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1150px) {
+
+    .page-wrap{
+        grid-template-areas: 
+        "menu"
+        "contact"
+        "adv"
+        "popular"
+        "footer";
+        grid-template-columns: 50%;
+    }
+    .menu{
+
+    }
+    .contact-wrap{
+        padding: 0
+    }
+    .header-options .fab{
+     display: none;
+    }
+    .email-input-area {
+        display: grid;
+        grid-template-areas: 
+        "department"
+        "name"
+        "email"
+        "captcha"
+        "text"
+        "button";
+    }
+    .popular-searches-options-container {
+        max-height: 300px;
+        overflow: hidden;
+    }
+    .footer {
+        grid-template: 
+        "logo"
+        "follow"
+        "deliver"
+        "accept"
+        "partners"
+        "newsletter";
+        grid-template-columns: 270px;
+    }
+    .footer-deliver, .footer-accept, .footer-partners{
+        flex-direction: column
+    }
+
+}

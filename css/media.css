@@ -17,7 +17,12 @@
         display: none;
     }
     .menu{
-        justify-content: center;
+        align-items: center;
+    }
+    .menu-description{
+        font-size: 13px;
+        padding-top: 5px;
+        padding-left: 0;
     }
 
     /* contact */
@@ -33,14 +38,12 @@
      display: none;
     }
     .email-input-area {
-        display: grid;
-        grid-template-areas: 
-        "department"
-        "name"
-        "email"
-        "captcha"
-        "text"
-        "button";
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 305px;
+        height: 415px;
+        margin: auto;
     }
     .header {
         justify-content: space-between;

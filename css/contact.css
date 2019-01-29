@@ -30,7 +30,7 @@
     "email text"
     "captcha text"
     "captcha button";
-    grid-gap: 10px;
+    grid-gap: 10px 50px;
 }
 .email-input-area [class^="email-input"]{
     border: #d7d7d7 solid 1px;

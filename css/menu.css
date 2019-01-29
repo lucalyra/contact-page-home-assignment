@@ -10,3 +10,17 @@
 .menu-logo{
     min-width: 250px;
 }
+.menu-logo-options{
+    grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: green 1px solid;
+    font-weight: bold;
+}
+.menu-description{
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
